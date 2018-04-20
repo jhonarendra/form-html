@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<title>Tugas JQuery</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery.min.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<header id="header">
+			<h1>Latihan JQuery</h1>
+			<p>Latihan menampilkan inputan dari form menggunakan JQuery.</p>
+		</header>
+
+		<div id="wrapper">
+
+			<div id="form">
+				<h2>Formulir Biodata</h2>
+				Nama:<br />
+				<input type="text" name="nama" id="fnama" /><br /><br />
+				Alamat:<br />
+				<textarea name="alamat" id="falamat"></textarea><br /><br />
+				Jenis Kelamin:<br />
+				<input type="radio" name="gender" value="Pria" id="Pria"/><label for="Pria">Pria</label><br />
+				<input type="radio" name="gender" value="Wanita" id="Wanita"/><label for="Wanita">Wanita</label><br /><br />
+				Kabupaten/Kota:<br />
+				<select name="Kabupaten" id="fkabupaten">
+					<option value="Denpasar">Denpasar</option>
+					<option value="Badung">Badung</option>
+					<option value="Tabanan">Tabanan</option>
+					<option value="Gianyar">Gianyar</option>
+					<option value="Bangli">Bangli</option>
+					<option value="Klungkung">Klungkung</option>
+					<option value="Karangasem">Karangasem</option>
+					<option value="Buleleng">Buleleng</option>
+					<option value="Jembrana">Jembrana</option>
+				</select><br />
+				<div class="btn">
+					<button id="kirim">Kirim</button>
+					<button id="reset">Reset</button>
+				</div>
+			</div>
+
+			<div id="tabel">
+				<h2>Data Mahasiswa</h2>
+				<table>
+					<tr>
+						<td>Nama</td>
+						<td>:</td>
+						<td id="nama"></td>
+					</tr>
+					<tr>
+						<td>Alamat</td>
+						<td>:</td>
+						<td id="alamat"></td>
+					</tr>
+					<tr>
+						<td>Jenis Kelamin</td>
+						<td>:</td>
+						<td id="jeniskelamin"></td>
+					</tr>
+					<tr>
+						<td>Kabupaten/Kota</td>
+						<td>:</td>
+						<td id="kabupaten"></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<footer id="footer">
+			Oleh Putu Jhonarendra - 1605551049.<br />
+		</footer>
+	</body>
+</html>
