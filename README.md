@@ -28,10 +28,10 @@ $("#nama").text(
 	$("#fnama").val()
 );
 ```
-- `"#nama"` merupakan id elemen untuk menampilkan isian form (terdapat diantara `<div id="tabel">...</div>`).
+- `"#nama"` merupakan id elemen untuk menampilkan isian form.
 - `.text()` adalah fungsi untuk memasukkan data keelemen yang diseleksi.
 - `#fnama` merupakan id widget form.
-- `.val()` adalah fungsi mengambil value dari form.
+- `.val()` adalah fungsi untuk mengambil value dari form.
 
-Jadi, setelah tombol dengan "Kirim" diklik, semua isian form diambil dan ditampilkan pada elemen yang telah ditentukan.
+Jadi, setelah tombol "Kirim" diklik, semua isian form diambil dan ditampilkan pada elemen yang telah ditentukan.
 ***
