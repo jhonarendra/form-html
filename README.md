@@ -34,4 +34,7 @@ $("#nama").text(
 - `.val()` adalah fungsi untuk mengambil value dari form.
 
 Jadi, setelah tombol "Kirim" diklik, semua isian form diambil dan ditampilkan pada elemen yang telah ditentukan.
-***
+
+## Demo
+
+https://jhonarendra.github.io/form-html/
